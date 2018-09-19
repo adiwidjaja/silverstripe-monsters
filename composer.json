@@ -1,0 +1,31 @@
+{
+    "name": "adiwidjaja/monsters",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Andy Adiwidjaja",
+            "email": "adiwidjaja@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "project-files-installed": [
+            "app/.htaccess",
+            "app/_config.php",
+            "app/_config/mysite.yml"
+        ],
+        "public-files-installed": [
+            ".htaccess",
+            "index.php",
+            "install-frameworkmissing.html",
+            "install.php",
+            "web.config"
+        ]
+    },
+    "require": {
+        "silverstripe/recipe-core": "^4.2",
+        "silverstripe/admin": "^1.2"
+    }
+}

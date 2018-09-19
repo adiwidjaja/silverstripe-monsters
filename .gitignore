@@ -1,0 +1,6 @@
+/.env
+/vendor/
+/silverstripe-cache/
+/public/resources/
+/public/assets/*
+/.idea

@@ -1,0 +1,9 @@
+# app/_config/routes.yml
+---
+Name: approutes
+After: framework/_config/routes#coreroutes
+---
+SilverStripe\Control\Director:
+  rules:
+    'monsters//$Action/$ID': App\Controllers\MonsterController
+    '': App\Controllers\MonsterController
