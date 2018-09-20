@@ -3,3 +3,14 @@ Name: myproject
 ---
 SilverStripe\Core\Manifest\ModuleManifest:
   project: app
+SilverStripe\Forms\TextField:
+  default_classes:
+  - input
+SilverStripe\Forms\DropdownField:
+  default_classes:
+  - select
+SilverStripe\Forms\FormAction:
+  default_classes:
+  - button
+SilverStripe\Security\Security:
+  template_main: 'SilverStripe\Control\Controller'

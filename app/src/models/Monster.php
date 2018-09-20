@@ -19,4 +19,8 @@ class Monster extends DataObject {
     private static $has_one = [
         "Image" => Image::class
     ];
+
+    private static $owns = [
+        "Image"
+    ];
 }
